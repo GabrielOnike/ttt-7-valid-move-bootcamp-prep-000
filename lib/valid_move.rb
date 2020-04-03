@@ -4,7 +4,7 @@ def valid_move?(board, index)
    next
 
   if board[index].between?(1,9)
-    return true 
+    return true
 end
 end
 
