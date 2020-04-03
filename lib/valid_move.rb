@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-  if board[index].between?("#{board[0]}","#{board[8]}") 
+  if board[index].between?("#{board[0]}","#{board[8]}")
     true
   else
     false
