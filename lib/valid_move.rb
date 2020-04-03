@@ -15,3 +15,12 @@ def position_taken?(board, index)
     true
 end
 end
+
+# if index.between?(1,9)
+ #   if !position_taken?(board, index)
+ #     true
+ #   end
+ # end
+#OR
+ #index.between?(0,8) && !position_taken?(board, index)
+#end
