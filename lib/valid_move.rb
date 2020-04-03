@@ -4,6 +4,8 @@ def valid_move?(board, index)
     true
   else board[index].between?(0,9)
     true
+  else
+    false
 end
 end
 
