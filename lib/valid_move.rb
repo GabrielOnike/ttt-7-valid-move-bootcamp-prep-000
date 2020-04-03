@@ -2,10 +2,8 @@
 def valid_move?(board, index)
   if position_taken?
     true
-  elsif "#{board[index]}".between?("#{board[0]}","#{board[8]}")
+  else "#{board[index]}".between?("#{board[0]}","#{board[8]}")
     true
-  else
-    false
 end
 end
 
